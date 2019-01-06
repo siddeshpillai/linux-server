@@ -27,3 +27,14 @@ This command will actually connect to and log you into your virtual machine. Onc
 This command halts your virtual machine. All of your work is saved and the machine is turned off - think of this as “turning the power off”. It’s much slower to stop and start your virtual machine using this command, but it does free up all of your RAM once the machine has been stopped. You should use this command if you plan to take an extended break from your work, like when you are done for the day. The command vagrant up will turn your machine back on and you can continue your work.
 6. ```vagrant destroy```
 This command destroys your virtual machine. Your work is not saved, the machine is turned off and forgotten about for the most part. Think of this as formatting the hard drive of a computer. You can always use vagrant up to relaunch the machine but you’ll be left with the baseline Linux installation from the beginning of this course. You should not have to use this command at any time during this course unless, at some point in time, you perform a task on the virtual machine that makes it completely inoperable.
+
+## Some handy stuffs
+1. ```sudo apt-get update``` Updates the package list
+2. ```sudo apt-get upgrade``` Updates the packages
+3. ```sudo apt-get install finger``` Instals the package named finger
+4. ```finger``` gets the user information of all the users
+5. ```finger <user>``` gets the information about the user
+It actually reads the information from /etc/passwd to get the information
+You can read it by trying out the following command
+6. ```cat /etc/passwd```
+7. ```sudo addusr <user>``` to add a new user 
