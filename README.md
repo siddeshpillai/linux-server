@@ -34,7 +34,6 @@ This command destroys your virtual machine. Your work is not saved, the machine 
 3. ```sudo apt-get install finger``` Instals the package named finger
 4. ```finger``` gets the user information of all the users
 5. ```finger <user>``` gets the information about the user
-It actually reads the information from /etc/passwd to get the information
-You can read it by trying out the following command
-6. ```cat /etc/passwd```
+6. ```cat /etc/passwd``` It actually reads the information from /etc/passwd to get the information
 7. ```sudo addusr <user>``` to add a new user 
+8. ```sudo finger <user>``` to confirm whether the user was created
