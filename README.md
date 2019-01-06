@@ -39,4 +39,5 @@ This command destroys your virtual machine. Your work is not saved, the machine 
 8. ```sudo finger <user>``` to confirm whether the user was created
 
 Now, open a new terminal to connect to the user that we created above
+
 9. ```ssh <user>@127.0.0.1 -p 2222``` remember in the above steps we did ```vagrant ssh``` which is a shorthand command for vagrant user. 127.0.0.1 is the local host 2222 is the port no that you want to establish the connection
