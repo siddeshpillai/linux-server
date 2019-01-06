@@ -23,3 +23,5 @@ This command suspends your virtual machine. All of your work is saved and the ma
 This gets your virtual machine up and running again. Notice we didn’t have to redownload the virtual machine image, since it’s already been downloaded.
 4. ```vagrant ssh```
 This command will actually connect to and log you into your virtual machine. Once done you will see a few lines of text showing various performance statistics of the virtual machine along with a new command line prompt that reads vagrant@vagrant-ubuntu-trusty-64:~$
+5. ```vagrant halt```
+To stop this VM or shut it down forcefully,
